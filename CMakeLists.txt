@@ -8,7 +8,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
     NAME benchmark
     GITHUB_REPOSITORY google/benchmark
-    VERSION 1.5.2
+    VERSION 1.6.1
     OPTIONS
       "BENCHMARK_ENABLE_TESTING Off"
       # The REGEX feature test fails when gbench's cmake is run under CPM w/ gcc5.4 because it doesn't assume C++11
